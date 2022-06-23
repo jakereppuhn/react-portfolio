@@ -49,7 +49,7 @@ export const AboutGroup = styled.div`
   flex-direction: column;
   align-items: center;
   border-left: 2px solid #eee;
-  height: 40rem;
+  height: 42rem;
   width: 33%;
 
   &:first-of-type {
@@ -85,57 +85,43 @@ export const AboutList = styled.ul`
 
 export const AboutH1 = styled.h1`
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 32px;
   text-align: center;
   z-index: 3;
   margin-top: 8rem;
   margin-bottom: 2rem;
 
   @media screen and (max-width: 768px) {
-    font-size: 1.6rem;
+    font-size: 24px;
     margin-top: 5rem;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 1.4rem;
   }
 `;
 export const AboutH2 = styled.h2`
   color: #000;
-
+  font-size: 24px;
   text-align: center;
-
-  @media screen and (max-width: 768px) {
-    font-size: 1.5rem;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 1.2rem;
-  }
+  margin-bottom: 1rem;
 `;
 export const AboutH3 = styled.h3`
   color: #1e96fc;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  font-size: 24px;
   text-align: center;
-
-  @media screen and (max-width: 768px) {
-    font-size: 1.5rem;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 1.2rem;
-  }
+  margin-bottom: 1rem;
 `;
 export const AboutP = styled.p`
   color: #fff;
   text-align: center;
   width: 75%;
-  max-width: 800px;
+  max-width: 900px;
   z-index: 3;
+  font-family: var(--fnt-second);
+  font-weight: 300;
+  font-size: 20px;
   @media screen and (max-width: 768px) {
-    font-size: 1.3rem;
     width: 90%;
   }
   @media screen and (max-width: 480px) {
-    font-size: 0.9rem;
   }
 `;
 export const AboutP2 = styled.p`
@@ -143,12 +129,12 @@ export const AboutP2 = styled.p`
   text-align: center;
   padding-left: 1rem;
   padding-right: 1rem;
+  font-size: 20px;
+  font-family: var(--fnt-second);
   @media screen and (max-width: 768px) {
-    font-size: 1.3rem;
     width: 90%;
   }
   @media screen and (max-width: 480px) {
-    font-size: 0.9rem;
   }
 `;
 

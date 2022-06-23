@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;600;700;800&display=swap");
+@import url("https://use.typekit.net/ozr2fab.css");
+@font-face {
+  font-family: "Eurostile";
+  src: url(/src/fonts/EurostileBold.ttf);
+}
+
 :root {
   --clr-main: #1e96fc;
   --clr-second: #fff;
   --clr-third: #fff;
-  --fnt-main: "Anek Malayalam", sans-serif;
-  --fnt-second: ;
+  --fnt-main: "Eurostile";
+  --fnt-second: "Europa", sans-serif;
 }
 * {
   box-sizing: border-box;
