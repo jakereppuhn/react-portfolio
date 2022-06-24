@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  background: #fff;
+  background: var(--clr-second);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@ export const AboutContainer = styled.div`
 export const AboutBg = styled.div`
   width: 100%;
   height: 33rem;
-  background: #1e96fc;
+  background: var(--clr-main);
   position: absolute;
   z-index: 2;
 `;
@@ -27,7 +27,7 @@ export const AboutContent = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: #fff;
+  background: var(--clr-second);
   border-radius: 0.8rem;
   height: max-content;
   width: 95%;
@@ -84,7 +84,7 @@ export const AboutList = styled.ul`
 `;
 
 export const AboutH1 = styled.h1`
-  color: #fff;
+  color: var(--clr-second);
   font-size: 32px;
   text-align: center;
   z-index: 3;
@@ -97,20 +97,20 @@ export const AboutH1 = styled.h1`
   }
 `;
 export const AboutH2 = styled.h2`
-  color: #000;
+  color: var(--clr-third);
   font-size: 24px;
   text-align: center;
   margin-bottom: 1rem;
 `;
 export const AboutH3 = styled.h3`
-  color: #1e96fc;
+  color: var(--clr-main);
   margin-top: 2rem;
   font-size: 24px;
   text-align: center;
   margin-bottom: 1rem;
 `;
 export const AboutP = styled.p`
-  color: #fff;
+  color: var(--clr-second);
   text-align: center;
   width: 75%;
   max-width: 900px;
@@ -125,14 +125,13 @@ export const AboutP = styled.p`
   }
 `;
 export const AboutP2 = styled.p`
-  color: #000;
+  color: var(--clr-third);
   text-align: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
   font-size: 20px;
   font-family: var(--fnt-second);
+  width: 90%;
   @media screen and (max-width: 768px) {
-    width: 90%;
+    width: 100%;
   }
   @media screen and (max-width: 480px) {
   }

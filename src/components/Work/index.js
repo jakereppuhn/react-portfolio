@@ -7,8 +7,8 @@ const Work = () => {
     <WorkContainer id="work">
       <WorkH1>My Recent Work</WorkH1>
       <WorkP>
-        Here are a few projects I've worked on recently. Want to see more? Email
-        me.
+        Here are a few projects I've worked on recently. Want to see more?{" "}
+        <span>Email me.</span>
       </WorkP>
       <WorkContent>
         <Cards />

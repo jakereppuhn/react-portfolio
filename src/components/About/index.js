@@ -3,7 +3,6 @@ import {
   AboutContainer,
   AboutBg,
   AboutContent,
-  AboutH1Row,
   AboutH1,
   AboutH2,
   AboutH3,
@@ -12,7 +11,6 @@ import {
   AboutIcon,
   AboutList,
   AboutGroup,
-  AboutGreeting,
 } from "./AboutElms";
 
 import dev from "../../images/web-programming.png";
@@ -60,7 +58,7 @@ const About = () => {
             I use various methods to express my visions, dreams and ideas.
           </AboutP2>
           <AboutH3>Mediums:</AboutH3>
-          <AboutP2>Pixel, Vector, Voxel and 3D</AboutP2>
+          <AboutP2>Pixel, Vector, Voxel & 3D</AboutP2>
           <AboutH3>Art Tools:</AboutH3>
           <AboutList>
             <AboutP2>Photoshop</AboutP2>
